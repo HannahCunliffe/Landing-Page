@@ -1,0 +1,32 @@
+body {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.links a, .secondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
