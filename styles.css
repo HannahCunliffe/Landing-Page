@@ -66,7 +66,7 @@ body {
     align-items: center;
 }
 
-button {
+.signupButton1 {
     width: 150px;
     padding: 10px;
     border: none;
@@ -76,7 +76,7 @@ button {
 }
 
 .secondSection {
-    background-color: white;
+    background-color: #F9FAF8;
     padding: 15px;
 }
 
@@ -140,3 +140,58 @@ button {
     display: flex;
     align-self: flex-end;
 }
+
+
+.fourthSection {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    color: #F9FAF8;
+    padding: 0px 100px;
+}
+
+
+.fourthSectionLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthSectionRight {
+    display: flex;
+    padding: 60px;
+}
+
+.signupButton2 {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+.primaryText {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+}
+
