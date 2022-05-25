@@ -1,15 +1,18 @@
 body {
     background-color: #1F2937;
+    margin: 0;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .links {
@@ -28,5 +31,74 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+
+.firstSection {
+    /*
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   justify-items: center;
+   gap: 20px;
+   */
+   display: flex;
+   /* wrap reverse fixed the image not lining up properly with the text on the left side */
+   flex-flow: row wrap-reverse;
+   justify-content:  center;
+   gap: 10px;
+   margin: 75px 0;
+}
+
+.firstSectionLeft {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    background-color: darkgrey;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-weight: 600;
+}
+
+.secondSection {
+    background-color: white;
+    padding: 15px;
+}
+
+.infoHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+
+.gallery {
+    list-style-type: none;
+    color: #1F2937;
+    display: flex;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
 }
 
